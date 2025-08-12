@@ -24,6 +24,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/react-site/login" element={<Login />} />
           <Route path="/react-site/0811" element={<App_0811 />} />
+          <Route path="/react-site/0812" element={<App_0812 />} />
         </Routes>
       </BrowserRouter>
     </>
