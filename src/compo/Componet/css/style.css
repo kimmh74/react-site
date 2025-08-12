@@ -1,0 +1,36 @@
+.wrapper {
+    margin: 8px;
+    padding: 8px;
+    display: flex; 
+    flex-direction: row; 
+    width: 1200px;
+    border: 1px solid grey;
+    border-radius: 16px;
+    }
+
+.imageContainer > img {
+    margin: auto;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+ 
+}
+
+.contentContainer {
+    margin-left: 8px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.nameText {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.commentText {
+    color: black;
+    font-size: 16px;
+}
